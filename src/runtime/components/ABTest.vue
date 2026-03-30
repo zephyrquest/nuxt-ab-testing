@@ -33,7 +33,6 @@ props.variants.forEach(variant => {
 </script>
 
 <template>
-  {{ result }}
   <template v-if="result !== undefined">
     <template v-for="variant in variants" :key="variant.id">
       <template v-if="result.id === variant.id">
